@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="user.css" />
+    <title>GameStudio</title>
+  </head>
+
+  <body>
+      
+    <!-- ШАПКА САЙТУ -->
+    <header class="header container">
+      <h1>
+        <a href="#" class="logo"><span>Game</span>Studio</a>
+      </h1>
+      <div class="title-wrapper">
+        <h2 class="title">Best video games for you</h2>
+      </div>
+    </header>
+
+    <!-- ОСНОВНИЙ КОНТЕНТ -->
+    <main class="container">
+
+      
+
+     
+      <!-- НАПИСАТИ КОД ТУТ -->
+      <section class="card-list">
+        <h2 class="section-title">CHOOSE YOUR GAME</h2>
+        <ul class="card-list">
+          <li>
+            <img src="img/cal.jpg" class="card-img">
+            <h3 class="card-title">CALLofDUTY</h3>
+            <p class="card-description">убивай своїх ворогів</p>
+          </li>
+          <li>
+            <img src="img/world.jpg" class="card-img">
+            <h3 class="card-title">WORLDofTANKS</h3>
+            <p class="card-description">улутшай свою броню і перемогай</p>
+          </li>
+          <li>
+            <img src="img/mine.jpg"  class="card-img">
+            <h3 class="card-title">MINECRAFT</h3>
+            <p class="card-description">досліджуй та будуй нові світи</p>
+          </li> 
+          <li>
+            <img src="img/need.jpg"  class="card-img">
+            <h3 class="card-title">NEDDFORSPEED</h3>
+            <p class="card-description">хутчіш натискай на педаль газу</p>
+          </li>
+        </ul>
+      </section>
+
+
+
+      <!-- СЕКЦІЯ З ФОРМОЮ -->
+      <section class="contact-section">
+        <h2 class="section-title">CONTACT US</h2>
+
+        <form action="#" class="contact-form">
+          <div class="inputs-wrapper">
+            <label for="user-name">Name</label>
+            <input type="text" id="user-name" name="user-name" />
+            <label for="user-phone">Phone Number</label>
+            <input type="text" id="user-phone" name="user-phone" />
+            <label for="user-email">Email</label>
+            <input type="email" id="user-email" name="user-email" />           
+          </div>
+
+          <div>
+           <label for="user-comment">Comment</label>
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              cols="30"
+              rows="10"
+              placeholder="Enter your text"
+            ></textarea>
+          </div>
+
+          <div class="submit-wrapper">
+            <input
+              type="submit"
+              id="submit-btn"
+              name="submit-btn"
+              value="Send"
+            />
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <!-- НИЖНЯ ЧАСТИНА (ПІДВАЛ) САЙТУ -->
+    <footer class="container">
+      <a href="#" class="logo"><span>Game</span>Studio</a>
+      <p class="adress">г.Киев, пр-т леси Українки,26</p>
+      <a href="mailto:info@example.com" class="email">info@example.com</a>
+      <a href="tel:+380991111111" class="phone">+38 099 111 11 11</a>
+    </footer>
+  </body>
+</html>

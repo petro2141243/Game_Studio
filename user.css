@@ -1,0 +1,248 @@
+.logo {
+  font-family: Roboto;
+
+  font-style: normal;
+
+  font-weight: bold;
+
+  font-size: 24px;
+
+  line-height: 28px;
+
+  letter-spacing: 0.15em;
+
+  
+
+  color: #000000;
+
+
+}
+
+.logo span {
+  color:#0D5FFF ;
+
+
+}
+
+.title {
+  font-family: Roboto;
+
+  font-style: normal;
+
+  font-weight: bold;
+
+  font-size: 24px;
+
+  line-height: 28px;
+
+  text-align: center;
+
+  letter-spacing: 0.15em;
+
+  text-transform: uppercase;
+  color: #FFFFFF
+
+  
+
+}
+
+.title-wrapper{
+
+background-image: url(img/dj.jpg);
+
+}
+
+
+.section-title {
+/* ЗАГОЛОВОК СЕКЦІЇ */
+font-family: Roboto;
+
+font-style: normal;
+
+font-weight: bold;
+
+font-size: 24px;
+
+line-height: 28px;
+
+letter-spacing: 0.15em;
+
+
+
+color: #000000;
+text-transform: uppercase;
+
+border: 2px solid #466EF9;
+
+transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.card-title {
+/* ЗАГОЛОВОК КАРТКИ */
+font-family: Roboto Slab;
+
+font-style: normal;
+
+font-weight: normal;
+
+font-size: 24px;
+
+line-height: 32px;
+
+display: flex;
+
+align-items: center;
+
+letter-spacing: 0.15em;
+
+
+
+;
+
+}
+
+.card-description {
+/* ОПИС КАРТКИ */
+font-family: Roboto Slab;
+
+font-style: normal;
+
+font-weight: 300;
+
+font-size: 16px;
+
+line-height: 21px;
+
+display: flex;
+
+align-items: center;
+
+letter-spacing: 0.15em;
+
+
+
+color: #000000;
+
+}
+
+.card-list li:hover {
+/* ЕФЕКТ НАВЕДЕННЯ НА КАРТКУ */
+box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
+color: #2385F9;
+cursor: pointer;
+}
+
+label {
+/* ШРИФТ ПІДПИСІВ у ФОРМІ */
+font-family: Roboto slab;
+
+font-style: normal;
+
+font-weight: 300;
+
+font-size: 18px;
+
+line-height: 21px;
+
+letter-spacing: 0.15em;
+
+
+
+color: #000000;
+}
+
+.inputs-wrapper input,
+textarea {
+/* ШРИФТ ТЕКСТУ У ПОЛЯХ ФОРМИ */
+font-family: Roboto;
+
+font-style: normal;
+
+font-weight: 300;
+
+font-size: 18px;
+
+line-height: 21px;
+
+letter-spacing: 0.15em;
+
+
+
+color: #B9AEAE;
+
+}
+
+.inputs-wrapper input:focus,
+textarea:focus {
+  /* АКТИВНЕ ПОЛЕ ФОРМИ */
+border: 2px solid #287CDE;
+box-sizing: border-box;
+border-radius: 4px;
+
+}
+
+textarea::placeholder {
+/* ТЕКСТ ПЛЕЙСХОЛДЕРА */
+
+font-family: Roboto;
+
+font-style: normal;
+
+font-weight: 300;
+
+font-size: 18px;
+
+line-height: 21px;
+
+letter-spacing: 0.15em;
+
+
+
+color: #B9AEAE;
+}
+
+.submit-wrapper input {
+/* ОФОРМЛЕННЯ КНОПКИ */
+ 
+  background: #2196F3;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  border-radius: 5px;
+  border: 2px solid #287CDE;
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+.submit-wrapper input:hover{
+  cursor: pointer;
+}
+
+.adress,
+.phone,
+.email {
+/* ТЕКСТ ФУТЕРА */
+font-family: Roboto;
+
+font-style: normal;
+
+font-weight: bold;
+
+font-size: 18px;
+
+line-height: 21px;
+
+text-align: center;
+
+letter-spacing: 0.15em;
+
+color: #rgba(rgba(255, 255, 255, 0.6););
+
+}
+
+.adress {
+  /* КОЛІР ТЕКСТУ АДРЕСИ */
+
+color: #FFFFFF;
+}
